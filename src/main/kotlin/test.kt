@@ -1,3 +1,1 @@
-fun printHelloWorld() {
-    println("Hello World!")
-}
+fun printHelloName(name: String): String = "Hello $name"
