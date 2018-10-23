@@ -1,1 +1,0 @@
-fun printHelloName(name: String): String = "Hello $name"
