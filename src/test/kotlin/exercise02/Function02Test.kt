@@ -3,7 +3,6 @@ package exercise02
 import kotlin.test.Test
 import kotlin.test.asserter
 
-
 class Function02Test {
 
     @Test
