@@ -1,4 +1,4 @@
-package exercise5
+package exercise05
 
 import org.junit.jupiter.api.Test
 import kotlin.test.asserter
@@ -9,9 +9,9 @@ class GreetingsTest {
     fun sayHello() {
 
         val helloInLanguages = listOf(
-            exercise5.greet(Positions.BOSS) == Positions.BOSS.hello,
-            exercise5.greet(Positions.COWORKER) == Positions.COWORKER.hello,
-            exercise5.greet(Positions.CLIENT) == "${Positions.CLIENT.hello} $EVERYTHING_IS_FINE"
+            exercise05.greet(Positions.BOSS) == Positions.BOSS.hello,
+            exercise05.greet(Positions.COWORKER) == Positions.COWORKER.hello,
+            exercise05.greet(Positions.CLIENT) == "${Positions.CLIENT.hello} $EVERYTHING_IS_FINE"
         )
 
         println(helloInLanguages)

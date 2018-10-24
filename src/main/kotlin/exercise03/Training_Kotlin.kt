@@ -1,7 +1,7 @@
-package exercise3
+package exercise03
 
 /**
- * Look under main/java/exercise3 and investigate Training_Java class.
+ * Look under main/java/exercise03 and investigate Training_Java class.
  * As it can be seen, this class holds various information about training object.
  * In order to for instance print out this object, toString() method must be overwritten
  * and to guarantee readability of private variables, getters must be generated.

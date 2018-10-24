@@ -1,4 +1,4 @@
-package exercise4
+package exercise04
 
 import org.junit.jupiter.api.Test
 import kotlin.test.asserter
@@ -13,10 +13,10 @@ class AccountRegistrationTest {
         val age = 30
 
         val javaRegistrationForms = listOf(
-            JavaAccountRegistration().registerAccount(firstName, lastName, age).toString(),
-            JavaAccountRegistration().registerAccount(firstName, lastName).toString(),
-            JavaAccountRegistration().registerAccount(firstName, age).toString(),
-            JavaAccountRegistration().registerAccount(firstName).toString()
+            AccountRegistration_Java().registerAccount(firstName, lastName, age).toString(),
+            AccountRegistration_Java().registerAccount(firstName, lastName).toString(),
+            AccountRegistration_Java().registerAccount(firstName, age).toString(),
+            AccountRegistration_Java().registerAccount(firstName).toString()
         )
 
         /**

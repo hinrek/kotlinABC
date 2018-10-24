@@ -1,6 +1,6 @@
-package exercise4;
+package exercise04;
 
-public class JavaAccountRegistration {
+public class AccountRegistration_Java {
 
     public class RegistrationForm {
         final String firstName;

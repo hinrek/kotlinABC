@@ -1,11 +1,11 @@
-package exercise3
+package exercise03
 
 import org.junit.jupiter.api.Test
 import java.lang.IllegalArgumentException
 import kotlin.reflect.full.primaryConstructor
 import kotlin.test.asserter
 
-class Training() {
+class TrainingTest() {
 
     @Test
     fun `Is Training class (implemented in Kotlin) toString() method equal to Training class (implemented in Java) toString() method`() {

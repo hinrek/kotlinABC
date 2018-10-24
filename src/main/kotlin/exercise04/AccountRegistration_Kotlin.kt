@@ -1,4 +1,4 @@
-package exercise4
+package exercise04
 
 const val DEFAULT_ACCOUNT_OWNER_LAST_NAME = "Parker"
 const val DEFAULT_ACCOUNT_OWNER_AGE = 30
@@ -12,7 +12,7 @@ class KotlinAccountRegistration {
     )
 
     /**
-     * Look under main/java/exercise4 and investigate JavaAccountRegistration class.
+     * Look under main/java/exercise04 directory and investigate AccountRegistration_Java class.
      * As it can be noted, there is a function registerAccount() (with arguments firstName, lastName and age) and it returns RegistrationForm object based on the inputs.
      * However, when user wants to for instance only specify firstName, this function must be overloaded, thus there are few overloads for different scenarios.
      *

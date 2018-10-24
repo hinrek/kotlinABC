@@ -1,4 +1,4 @@
-package exercise5
+package exercise05
 
 enum class Positions(val hello: String) {
     COWORKER("Hey mate, how has it been?"),
