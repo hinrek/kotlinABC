@@ -1,6 +1,6 @@
 package exercise02
 
-/*
+/**
  * Edit function 'getOutputBasedOnInputType' that will
  * return 'String' if input type is of type String,
  * return '0' as Int if input type is of type Int,
