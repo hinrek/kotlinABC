@@ -13,7 +13,7 @@ class KotlinAccountRegistration {
 
     /**
      * Look under main/java/exercise04 directory and investigate AccountRegistration_Java class.
-     * As it can be noted, there is a function registerAccount() (with arguments firstName, lastName and age) and it returns RegistrationForm object based on the inputs.
+     * As it can be noted, there is getAlphabetCharactersNTimes function registerAccount() (with arguments firstName, lastName and age) and it returns RegistrationForm object based on the inputs.
      * However, when user wants to for instance only specify firstName, this function must be overloaded, thus there are few overloads for different scenarios.
      *
      * In Kotlin, this kind of function overloading is solved internally.

@@ -26,7 +26,6 @@ class TrainingTest() {
             )
         }
 
-
         asserter.assertEquals("Data class has not yet been correctly implemented.", trainingAsJavaClass.toString(), trainingAsKotlinDataClass.toString())
     }
 }

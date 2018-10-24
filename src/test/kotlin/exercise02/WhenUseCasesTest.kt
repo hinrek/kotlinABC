@@ -7,7 +7,7 @@ class WhenUseCasesTest {
 
     @Test
     fun `Test differentInputTypes String input`() {
-        val stringInput = "This is a String"
+        val stringInput = "This is getAlphabetCharactersNTimes String"
         val expectedStringReturn = "String"
 
         asserter.assertEquals("$stringInput must return $expectedStringReturn", expectedStringReturn, getOutputBasedOnInputType(stringInput))

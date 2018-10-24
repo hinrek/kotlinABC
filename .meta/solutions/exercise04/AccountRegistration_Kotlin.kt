@@ -1,5 +1,3 @@
-package exercise4
-
 const val DEFAULT_ACCOUNT_OWNER_LAST_NAME = "Parker"
 const val DEFAULT_ACCOUNT_OWNER_AGE = 30
 
