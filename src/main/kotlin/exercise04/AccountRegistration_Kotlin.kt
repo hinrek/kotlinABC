@@ -1,7 +1,7 @@
 package exercise04
 
 const val DEFAULT_ACCOUNT_OWNER_LAST_NAME = "Parker"
-const val DEFAULT_ACCOUNT_OWNER_AGE = 30
+const val DEFAULT_ACCOUNT_OWNER_AGE = 35
 
 class KotlinAccountRegistration {
 
@@ -18,7 +18,7 @@ class KotlinAccountRegistration {
      *
      * In Kotlin, this kind of function overloading is solved internally.
      * Update this function, so if method is called for instance only with firstName as input, lastName and age would be initialized by their default values.
-     * NOTE: There are constants defined under this file, which must be used as default values.
+     * NOTE: There are constants defined in top of this file, which must be used as default values.
      *
      * ANOTHER NOTE:
      * Kotlin part of the tests has been commented and you must uncomment this section.

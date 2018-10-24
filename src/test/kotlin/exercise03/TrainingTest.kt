@@ -5,7 +5,7 @@ import java.lang.IllegalArgumentException
 import kotlin.reflect.full.primaryConstructor
 import kotlin.test.asserter
 
-class TrainingTest() {
+class TrainingTest {
 
     @Test
     fun `Is Training class (implemented in Kotlin) toString() method equal to Training class (implemented in Java) toString() method`() {
@@ -25,7 +25,6 @@ class TrainingTest() {
                     "argument types are ${subject::class.simpleName}, ${participantsAmount::class.simpleName} and ${courseConductors::class.simpleName}."
             )
         }
-
 
         asserter.assertEquals("Data class has not yet been correctly implemented.", trainingAsJavaClass.toString(), trainingAsKotlinDataClass.toString())
     }
