@@ -1,12 +1,11 @@
-fun getAlphabetCharactersNTimes(lettersAmount: Int?): String? {
-    return lettersAmount?.let { amount ->
-        buildString {
-            for (letter in 'A'..'Z') {
-                append(amount.multiply(letter))
+fun getAlphabetCharactersNTimes(lettersAmount: Int?): String? =
+        lettersAmount?.let { amount ->
+            buildString {
+                for (letter in 'A'..'Z') {
+                    append(amount.multiply(letter))
+                }
             }
         }
-    }
-}
 
 private fun Int.multiply(letter: Char): String {
     var string = ""
