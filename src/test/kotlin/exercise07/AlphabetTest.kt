@@ -6,7 +6,7 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Nested
 import kotlin.test.asserter
 
-internal class AlphabetTest {
+class AlphabetTest {
 
     @Nested
     @DisplayName("Tests for the function 'getAlphabetCharactersNTimes'")

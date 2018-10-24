@@ -1,4 +1,4 @@
-fun getAlphabetCharacetersNTimes(lettersAmount: Int?): String? {
+fun getAlphabetCharactersNTimes(lettersAmount: Int?): String? {
     return lettersAmount?.let { amount ->
         buildString {
             for (letter in 'A'..'Z') {
